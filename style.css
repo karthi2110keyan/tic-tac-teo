@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100vw;
+    height:100vh;
+    background-color:lightgreen;
+    flex-direction:column;
+    }
+    
+    .container{
+    display:flex;
+    flex-wrap:wrap;
+    width:400px;
+    height:400px;
+    
+    }
+    .box{
+    width:130px;
+    height:130px;
+    border:5px solid white;
+    color:white;
+    font-weight:bolder;
+    font-size:8rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:yellow;
+     font-family: "DM Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    
+    }
+
+    .box:nth-child(1){
+    border-top:hidden;
+    border-left:hidden;
+    }
+    .box:nth-child(2){
+    border-top:hidden;
+    }
+    .box:nth-child(3){
+    border-top:hidden;
+    border-right:hidden;
+    }
+    .box:nth-child(4){
+    border-left:hidden;
+    
+    }
+    .box:nth-child(5){
+    
+    }
+    .box:nth-child(6){
+    border-right:hidden;
+    
+    }
+    .box:nth-child(7){
+    border-bottom:hidden;
+    border-left:hidden;
+    }
+    .box:nth-child(8){
+    border-bottom:hidden;
+    }
+    .box:nth-child(9){
+    border-bottom:hidden;
+    border-right:hidden;
+    }
+    
+.button-box{
+    width:95vw;
+    height:200px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    z-index:999;
+    background-color:green;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    visibility: hidden;
+   
+}
+
+button{
+    padding:0.5rem 1rem;
+    border-radius:5px;
+    color:lightgreen;
+    background-color:black;
+}
+    
+    .result-box{
+        font-size: 4rem;
+        font-family: "DM Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      padding-bottom: 1rem;
+      transition: text 2s ease-in-out;
+    }
