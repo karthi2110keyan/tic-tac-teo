@@ -75,8 +75,8 @@ body{
     }
     
 .button-box{
-    width:95vw;
-    height:200px;
+    width:100vw;
+    height:250px;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -87,6 +87,7 @@ body{
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     visibility: hidden;
+    text-wrap: nowrap;
    
 }
 
@@ -98,11 +99,13 @@ button{
 }
     
     .result-box{
-        font-size: 4rem;
+        font-weight: bold;
+        font-size: 2.5rem;
         font-family: "DM Sans", sans-serif;
       font-optical-sizing: auto;
       font-weight: weight;
       font-style: normal;
       padding-bottom: 1rem;
       transition: text 2s ease-in-out;
+      text-wrap: nowrap;
     }
